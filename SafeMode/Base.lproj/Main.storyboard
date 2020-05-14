@@ -75,10 +75,10 @@ If that does not work, please uninstall one of your tweaks through Sileo.</strin
     <resources>
         <image name="sadiphone" width="104" height="154"/>
         <namedColor name="BackgroundColor">
-            <color red="0.878" green="0.871" blue="0.85899999999999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.87800002098083496" green="0.87099999189376831" blue="0.85900002717971802" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
         <namedColor name="ButtonColor">
-            <color white="0.2963230311870575" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <color white="0.24400000274181366" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </namedColor>
         <namedColor name="ButtonTextColor">
             <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
