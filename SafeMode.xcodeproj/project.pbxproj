@@ -14,6 +14,7 @@
 		F1751C6B246D482700FF34A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1751C6A246D482700FF34A8 /* Assets.xcassets */; };
 		F1751C6E246D482700FF34A8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1751C6C246D482700FF34A8 /* LaunchScreen.storyboard */; };
 		F1751C71246D482700FF34A8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F1751C70246D482700FF34A8 /* main.m */; };
+		F1751C79246D52D200FF34A8 /* RespringButton.m in Sources */ = {isa = PBXBuildFile; fileRef = F1751C78246D52D200FF34A8 /* RespringButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		F1751C6D246D482700FF34A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F1751C6F246D482700FF34A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F1751C70246D482700FF34A8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F1751C77246D52D200FF34A8 /* RespringButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RespringButton.h; sourceTree = "<group>"; };
+		F1751C78246D52D200FF34A8 /* RespringButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RespringButton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 				F1751C62246D482400FF34A8 /* SceneDelegate.m */,
 				F1751C64246D482400FF34A8 /* ViewController.h */,
 				F1751C65246D482400FF34A8 /* ViewController.m */,
+				F1751C77246D52D200FF34A8 /* RespringButton.h */,
+				F1751C78246D52D200FF34A8 /* RespringButton.m */,
 				F1751C67246D482400FF34A8 /* Main.storyboard */,
 				F1751C6A246D482700FF34A8 /* Assets.xcassets */,
 				F1751C6C246D482700FF34A8 /* LaunchScreen.storyboard */,
@@ -147,6 +152,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F1751C66246D482400FF34A8 /* ViewController.m in Sources */,
+				F1751C79246D52D200FF34A8 /* RespringButton.m in Sources */,
 				F1751C60246D482400FF34A8 /* AppDelegate.m in Sources */,
 				F1751C71246D482700FF34A8 /* main.m in Sources */,
 				F1751C63246D482400FF34A8 /* SceneDelegate.m in Sources */,
@@ -291,6 +297,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = SafeMode/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -307,6 +314,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = SafeMode/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
