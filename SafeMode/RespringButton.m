@@ -10,14 +10,6 @@
 
 @implementation RespringButton
 
-- (instancetype)initWithCoder:(NSCoder *)coder {
-    self = [super initWithCoder:coder];
-    if (self){
-        self.layer.cornerRadius = 25.0;
-    }
-    return self;
-}
-
 - (void)setHighlighted:(BOOL)highlighted {
     if (highlighted){
         [self setBackgroundColor:[UIColor colorNamed:@"ButtonHighlightedColor"]];
