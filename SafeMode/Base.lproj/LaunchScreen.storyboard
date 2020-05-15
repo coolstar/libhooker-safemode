@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Zat-v1-H3y">
-    <device id="retina4_0" orientation="portrait" appearance="dark"/>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Cym-lF-YVC">
+    <device id="retina5_9" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16086"/>
@@ -10,22 +10,27 @@
     </dependencies>
     <scenes>
         <!--View Controller-->
-        <scene sceneID="QPI-yC-rJx">
+        <scene sceneID="bif-fb-hhb">
             <objects>
-                <viewController id="Zat-v1-H3y" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" ambiguous="YES" id="uao-X1-uSP">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                <viewController id="Cym-lF-YVC" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="adf-Kp-Rv3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="sadiphone" translatesAutoresizingMaskIntoConstraints="NO" id="amf-13-vrF">
-                                <rect key="frame" x="108" y="43.5" width="104" height="154"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sadiphone" translatesAutoresizingMaskIntoConstraints="NO" id="6cj-DG-T9F">
+                                <rect key="frame" x="135.66666666666666" y="116" width="104" height="154"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="6cj-DG-T9F" secondAttribute="height" multiplier="52:77" id="0gZ-KC-aZb"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="130" id="hc2-dA-whS"/>
+                                    <constraint firstAttribute="height" priority="750" constant="154" id="r7X-2S-YDh"/>
+                                </constraints>
                             </imageView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" editable="NO" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jqq-Mf-nvh">
-                                <rect key="frame" x="10" y="237.5" width="300" height="272"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xYe-ka-PKe">
+                                <rect key="frame" x="37.666666666666657" y="310" width="300" height="272"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="300" id="X3o-rR-UtP"/>
-                                    <constraint firstAttribute="width" secondItem="jqq-Mf-nvh" secondAttribute="height" multiplier="140:127" id="bVL-dX-D1Z"/>
+                                    <constraint firstAttribute="width" constant="300" id="OUm-ku-q55"/>
+                                    <constraint firstAttribute="width" secondItem="xYe-ka-PKe" secondAttribute="height" multiplier="140:127" id="h78-sL-4ze"/>
                                 </constraints>
                                 <string key="text">SpringBoard ran into a problem and is now in Safe Mode.
 
@@ -38,39 +43,37 @@ If that does not work, please uninstall one of your tweaks through Sileo.</strin
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SKD-Db-Xjz">
-                                <rect key="frame" x="75" y="569.5" width="170" height="50"/>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b7C-vn-Ee1">
+                                <rect key="frame" x="102.66666666666669" y="612" width="170" height="50"/>
                                 <color key="backgroundColor" name="ButtonColor"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="50" id="Wdx-Sc-gKQ"/>
-                                    <constraint firstAttribute="width" secondItem="SKD-Db-Xjz" secondAttribute="height" multiplier="17:5" id="hd6-yC-Axf"/>
+                                    <constraint firstAttribute="width" secondItem="b7C-vn-Ee1" secondAttribute="height" multiplier="17:5" id="JjC-uc-LGo"/>
+                                    <constraint firstAttribute="height" constant="50" id="nYc-5m-Isw"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="18"/>
                                 <state key="normal" title="Respring">
                                     <color key="titleColor" name="ButtonTextColor"/>
                                 </state>
-                                <connections>
-                                    <action selector="respring:" destination="Zat-v1-H3y" eventType="touchUpInside" id="rej-4K-fa0"/>
-                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" name="BackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="jqq-Mf-nvh" firstAttribute="centerX" secondItem="uao-X1-uSP" secondAttribute="centerX" id="0vt-K7-piN"/>
-                            <constraint firstItem="SKD-Db-Xjz" firstAttribute="top" secondItem="jqq-Mf-nvh" secondAttribute="bottom" constant="60" id="4wx-gC-oLa"/>
-                            <constraint firstItem="0U0-hT-uXz" firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="SKD-Db-Xjz" secondAttribute="bottom" constant="47" id="BjA-tc-9T5"/>
-                            <constraint firstItem="SKD-Db-Xjz" firstAttribute="centerX" secondItem="uao-X1-uSP" secondAttribute="centerX" id="QM9-Lf-y63"/>
-                            <constraint firstItem="jqq-Mf-nvh" firstAttribute="top" secondItem="amf-13-vrF" secondAttribute="bottom" constant="40" id="b5h-pN-c2d"/>
-                            <constraint firstItem="amf-13-vrF" firstAttribute="centerX" secondItem="uao-X1-uSP" secondAttribute="centerX" id="bE8-Xn-q7f"/>
-                            <constraint firstItem="amf-13-vrF" firstAttribute="top" relation="greaterThanOrEqual" secondItem="0U0-hT-uXz" secondAttribute="top" constant="43" id="cew-d5-FEf"/>
-                            <constraint firstItem="jqq-Mf-nvh" firstAttribute="centerY" secondItem="uao-X1-uSP" secondAttribute="centerY" constant="40" id="fk3-en-e0O"/>
+                            <constraint firstItem="xYe-ka-PKe" firstAttribute="centerY" secondItem="adf-Kp-Rv3" secondAttribute="centerY" constant="40" id="Kgh-18-zTK"/>
+                            <constraint firstItem="RWC-UK-kNW" firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="b7C-vn-Ee1" secondAttribute="bottom" constant="27" id="L5K-KG-gYI"/>
+                            <constraint firstItem="xYe-ka-PKe" firstAttribute="top" relation="greaterThanOrEqual" secondItem="6cj-DG-T9F" secondAttribute="bottom" constant="20" id="LMu-R3-n5f"/>
+                            <constraint firstItem="6cj-DG-T9F" firstAttribute="centerX" secondItem="adf-Kp-Rv3" secondAttribute="centerX" id="NW5-Sm-xGd"/>
+                            <constraint firstItem="b7C-vn-Ee1" firstAttribute="centerX" secondItem="adf-Kp-Rv3" secondAttribute="centerX" id="XOq-l5-wye"/>
+                            <constraint firstItem="xYe-ka-PKe" firstAttribute="centerX" secondItem="adf-Kp-Rv3" secondAttribute="centerX" id="fQz-i3-IH5"/>
+                            <constraint firstItem="b7C-vn-Ee1" firstAttribute="top" secondItem="xYe-ka-PKe" secondAttribute="bottom" constant="30" id="leD-hS-FSx"/>
+                            <constraint firstItem="xYe-ka-PKe" firstAttribute="top" secondItem="6cj-DG-T9F" secondAttribute="bottom" priority="750" constant="40" id="qUq-Iy-rHz"/>
+                            <constraint firstItem="6cj-DG-T9F" firstAttribute="top" relation="greaterThanOrEqual" secondItem="RWC-UK-kNW" secondAttribute="top" constant="43" id="v5D-or-r8T"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="0U0-hT-uXz"/>
+                        <viewLayoutGuide key="safeArea" id="RWC-UK-kNW"/>
                     </view>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="drh-zl-LEJ" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7iw-v1-KWW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="130.40000000000001" y="138.17733990147784"/>
+            <point key="canvasLocation" x="141" y="167"/>
         </scene>
     </scenes>
     <resources>
