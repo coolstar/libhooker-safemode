@@ -18,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BC46380724F39C1500419DB6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
 		BCA764AD24E7B33000307190 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
 		BCA764AE24E7B33000307190 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
 		BCA764AF24E7B49300307190 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Main.strings"; sourceTree = "<group>"; };
@@ -174,6 +175,7 @@
 				F1751C68246D482400FF34A8 /* Base */,
 				BCA764AD24E7B33000307190 /* zh-Hans */,
 				BCA764AF24E7B49300307190 /* zh-Hant */,
+				BC46380724F39C1500419DB6 /* en */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
