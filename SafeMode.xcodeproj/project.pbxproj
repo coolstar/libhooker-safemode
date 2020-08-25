@@ -23,6 +23,8 @@
 		BCA764AE24E7B33000307190 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
 		BCA764AF24E7B49300307190 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Main.strings"; sourceTree = "<group>"; };
 		BCA764B024E7B49300307190 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		D5B1938624F4E4E9007F2404 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/Main.strings; sourceTree = "<group>"; };
+		D5B1938724F4E4E9007F2404 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		F1751C5B246D482400FF34A8 /* SafeMode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SafeMode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1751C5E246D482400FF34A8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F1751C5F246D482400FF34A8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -129,6 +131,7 @@
 				Base,
 				"zh-Hans",
 				"zh-Hant",
+				ko,
 			);
 			mainGroup = F1751C52246D482400FF34A8;
 			productRefGroup = F1751C5C246D482400FF34A8 /* Products */;
@@ -176,6 +179,7 @@
 				BCA764AD24E7B33000307190 /* zh-Hans */,
 				BCA764AF24E7B49300307190 /* zh-Hant */,
 				BC46380724F39C1500419DB6 /* en */,
+				D5B1938624F4E4E9007F2404 /* ko */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -186,6 +190,7 @@
 				F1751C6D246D482700FF34A8 /* Base */,
 				BCA764AE24E7B33000307190 /* zh-Hans */,
 				BCA764B024E7B49300307190 /* zh-Hant */,
+				D5B1938724F4E4E9007F2404 /* ko */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
