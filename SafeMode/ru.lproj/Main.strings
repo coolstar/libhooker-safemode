@@ -1,0 +1,6 @@
+
+/* Class = "UITextView"; text = "SpringBoard ran into a problem and is now in Safe Mode.\n\nSileo/libhooker did not cause this problem, but rather protected you from it.\n\nIf this does not usually happen, you can safely press the button below to go back to normal mode.\n\nIf that does not work, please uninstall one of your tweaks through Sileo."; ObjectID = "wd3-1g-ED6"; */
+"wd3-1g-ED6.text" = "SpringBoard встретила ошибку и теперь находится в безопасном режиме.\n\nSileo/libhooker не являются причиной этой проблемы, но защитили вас от неё.\n\nЕсли это происходит не часто, вы можете спокойно нажать на кнопку ниже для возвращения в нормальный режим.\n\nЕсли это не работает, пожалуйста удалите один из твиков через Sileo.";
+
+/* Class = "UIButton"; normalTitle = "Respring"; ObjectID = "zbk-t7-h0L"; */
+"zbk-t7-h0L.normalTitle" = "Перезапустить SpringBoard";
