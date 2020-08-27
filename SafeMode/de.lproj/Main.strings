@@ -1,4 +1,4 @@
 {
     "wd3-1g-ED6.text" = "SpringBoard ist auf ein Problem gesto\U00dfen und befindet sich nun im Safe Mode.\n\nSileo/libhooker hat das Problem nicht verursacht, sondern dich davor besch\U00fctzt.\n\nWenn dies nicht regelm\U00e4\U00dfig passiert, kannst du den unteren Button benutzen, um in den normalen Modus neuzustarten.\n\nWenn das nicht funktioniert, versuche einen deiner Tweaks in Sileo zu deinstallieren.";
-    "zbk-t7-h0L.normalTitle" = Respring;
+    "zbk-t7-h0L.normalTitle" = SpringBoard neustarten;
 }
