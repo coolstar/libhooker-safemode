@@ -39,6 +39,12 @@
 		F1751C70246D482700FF34A8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F1751C77246D52D200FF34A8 /* RespringButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RespringButton.h; sourceTree = "<group>"; };
 		F1751C78246D52D200FF34A8 /* RespringButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RespringButton.m; sourceTree = "<group>"; };
+		F1C8FE7124F78A6B008A551E /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Main.strings; sourceTree = "<group>"; };
+		F1C8FE7224F78A6B008A551E /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		F1C8FE7324F78A77008A551E /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Main.strings; sourceTree = "<group>"; };
+		F1C8FE7424F78A77008A551E /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		F1C8FE7524F78A83008A551E /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Main.strings; sourceTree = "<group>"; };
+		F1C8FE7624F78A83008A551E /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +138,9 @@
 				"zh-Hans",
 				"zh-Hant",
 				ko,
+				fr,
+				ru,
+				es,
 			);
 			mainGroup = F1751C52246D482400FF34A8;
 			productRefGroup = F1751C5C246D482400FF34A8 /* Products */;
@@ -180,6 +189,9 @@
 				BCA764AF24E7B49300307190 /* zh-Hant */,
 				BC46380724F39C1500419DB6 /* en */,
 				D5B1938624F4E4E9007F2404 /* ko */,
+				F1C8FE7124F78A6B008A551E /* fr */,
+				F1C8FE7324F78A77008A551E /* ru */,
+				F1C8FE7524F78A83008A551E /* es */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -191,6 +203,9 @@
 				BCA764AE24E7B33000307190 /* zh-Hans */,
 				BCA764B024E7B49300307190 /* zh-Hant */,
 				D5B1938724F4E4E9007F2404 /* ko */,
+				F1C8FE7224F78A6B008A551E /* fr */,
+				F1C8FE7424F78A77008A551E /* ru */,
+				F1C8FE7624F78A83008A551E /* es */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
