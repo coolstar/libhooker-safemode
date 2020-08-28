@@ -1,5 +1,4 @@
 
-
 /* Class = "UITextView"; text = "SpringBoard ran into a problem and is now in Safe Mode.\n\nSileo/libhooker did not cause this problem, but rather protected you from it.\n\nIf this does not usually happen, you can safely press the button below to go back to normal mode.\n\nIf that does not work, please uninstall one of your tweaks through Sileo."; ObjectID = "wd3-1g-ED6"; */
 "wd3-1g-ED6.text" = "SpringBoard ist auf ein Problem gestoßen und befindet sich nun im abgesicherten Modus.\n\nSileo/libhooker hat das Problem nicht verursacht, sondern dich davor beschützt.\n\nWenn dies nicht regelmäßig passiert, kannst du den Button benutzen, um in den normalen Modus neuzustarten.\n\nWenn das nicht funktioniert, versuche einen deiner Tweaks in Sileo zu entfernen.";
 
