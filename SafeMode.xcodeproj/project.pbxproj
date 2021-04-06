@@ -51,6 +51,8 @@
 		F1CA32F3261C556F00AE4B24 /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		F1CA32F4261C55A100AE4B24 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Main.strings; sourceTree = "<group>"; };
 		F1CA32F5261C55A100AE4B24 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		F1CA32F6261C567300AE4B24 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Main.strings; sourceTree = "<group>"; };
+		F1CA32F7261C567300AE4B24 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,6 +152,7 @@
 				pl,
 				tr,
 				ar,
+				de,
 			);
 			mainGroup = F1751C52246D482400FF34A8;
 			productRefGroup = F1751C5C246D482400FF34A8 /* Products */;
@@ -204,6 +207,7 @@
 				F1821EAD261C54A600FD8919 /* pl */,
 				F1CA32F2261C556E00AE4B24 /* tr */,
 				F1CA32F4261C55A100AE4B24 /* ar */,
+				F1CA32F6261C567300AE4B24 /* de */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -221,6 +225,7 @@
 				F1821EAE261C54A600FD8919 /* pl */,
 				F1CA32F3261C556F00AE4B24 /* tr */,
 				F1CA32F5261C55A100AE4B24 /* ar */,
+				F1CA32F7261C567300AE4B24 /* de */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
