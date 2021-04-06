@@ -1,4 +1,6 @@
-{
-    "b7C-vn-Ee1.normalTitle" = Respring;
-    "xYe-ka-PKe.text" = "SpringBoard ist auf ein Problem gesto\U00dfen und befindet sich nun im Safe Mode.\n\nSileo/libhooker hat das Problem nicht verursacht, sondern dich davor besch\U00fctzt.\n\nWenn dies nicht regelm\U00e4\U00dfig passiert, kannst du den unteren Button benutzen, um in den normalen Modus neuzustarten.\n\nWenn das nicht funktioniert, versuche einen deiner Tweaks in Sileo zu deinstallieren.";
-}
+
+/* Class = "UIButton"; normalTitle = "Respring"; ObjectID = "b7C-vn-Ee1"; */
+"b7C-vn-Ee1.normalTitle" = Respring;
+
+/* Class = "UITextView"; text = "SpringBoard ran into a problem and is now in Safe Mode.\n\nSileo/libhooker did not cause this problem, but rather protected you from it.\n\nIf this does not usually happen, you can safely press the button below to go back to normal mode.\n\nIf that does not work, please uninstall one of your tweaks through Sileo."; ObjectID = "xYe-ka-PKe"; */
+"xYe-ka-PKe.text" = "SpringBoard ist auf ein Problem gesto\U00dfen und befindet sich nun im Safe Mode.\n\nSileo/libhooker hat das Problem nicht verursacht, sondern dich davor besch\U00fctzt.\n\nWenn dies nicht regelm\U00e4\U00dfig passiert, kannst du den unteren Button benutzen, um in den normalen Modus neuzustarten.\n\nWenn das nicht funktioniert, versuche einen deiner Tweaks in Sileo zu deinstallieren.";
