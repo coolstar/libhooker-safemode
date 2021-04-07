@@ -18,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7BD0C0BA261D32C1007C19F2 /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/Main.strings"; sourceTree = "<group>"; };
+		7BD0C0BB261D32C1007C19F2 /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
 		BC46380724F39C1500419DB6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
 		BCA764AD24E7B33000307190 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
 		BCA764AE24E7B33000307190 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
@@ -153,6 +155,7 @@
 				tr,
 				ar,
 				de,
+				"pt-BR",
 			);
 			mainGroup = F1751C52246D482400FF34A8;
 			productRefGroup = F1751C5C246D482400FF34A8 /* Products */;
@@ -208,6 +211,7 @@
 				F1CA32F2261C556E00AE4B24 /* tr */,
 				F1CA32F4261C55A100AE4B24 /* ar */,
 				F1CA32F6261C567300AE4B24 /* de */,
+				7BD0C0BA261D32C1007C19F2 /* pt-BR */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -226,6 +230,7 @@
 				F1CA32F3261C556F00AE4B24 /* tr */,
 				F1CA32F5261C55A100AE4B24 /* ar */,
 				F1CA32F7261C567300AE4B24 /* de */,
+				7BD0C0BB261D32C1007C19F2 /* pt-BR */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
