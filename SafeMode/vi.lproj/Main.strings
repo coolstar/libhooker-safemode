@@ -1,0 +1,6 @@
+
+/* Class = "UITextView"; text = "SpringBoard có vấn đề và bây giờ nó đang ở trong chế độ an toàn.\n\nSileo/libhooker đã không gây ra vấn đề này, mà đã bảo vệ bạn khỏi nó.\n\nNếu như điều này không xảy ra thường xuyên, bạn có thể bấm nút bên dưới để trở về chế độ bình thường một cách an toàn.\n\nNếu như làm vậy vẫn không có tác dụng, hãy gỡ cài đặt một trong những tinh chỉnh của bạn qua Sileo."; ObjectID = "wd3-1g-ED6"; */
+"wd3-1g-ED6.text" = "SpringBoard có vấn đề và bây giờ nó đang ở trong chế độ an toàn.\n\nSileo/libhooker đã không gây ra vấn đề này, mà đã bảo vệ bạn khỏi nó.\n\nNếu như điều này không xảy ra thường xuyên, bạn có thể bấm nút bên dưới để trở về chế độ bình thường một cách an toàn.\n\nNếu như làm vậy vẫn không có tác dụng, hãy gỡ cài đặt một trong những tinh chỉnh của bạn qua Sileo.";
+
+/* Class = "UIButton"; normalTitle = "Khởi động lại SpringBoard"; ObjectID = "zbk-t7-h0L"; */
+"zbk-t7-h0L.normalTitle" = "Khởi động lại SpringBoard";
